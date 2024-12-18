@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./00_scripts/12_protein_gene_rename.py", line 5, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'
+Traceback (most recent call last):
+  File "./00_scripts/12_protein_gene_rename.py", line 5, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'

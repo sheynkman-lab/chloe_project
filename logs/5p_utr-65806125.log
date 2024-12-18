@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/project/sheynkman/users/emily/chloe_project/./00_scripts/10_2_classify_5utr_status.py", line 230, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/project/sheynkman/users/emily/chloe_project/./00_scripts/10_2_classify_5utr_status.py", line 230, in <module>
+    import matplotlib.pyplot as plt
+ModuleNotFoundError: No module named 'matplotlib'

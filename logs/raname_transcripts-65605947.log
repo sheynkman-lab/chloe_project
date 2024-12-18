@@ -1,0 +1,26 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"mamba/22.11.1-4"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "mamba/22.11.1-4"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Loaded Miniforge which replaces Anaconda. 
+- The conda/mamba executables are included.
+- The default channel is conda-forge.
+
+For details see https://www.rc.virginia.edu/2024/10/transition-from-anaconda-to-miniforge-october-15-2024/
+Traceback (most recent call last):
+  File "/sfs/gpfs/tardis/project/sheynkman/users/emily/chloe_project/00_scripts/01.7_rename_transcripts.py", line 79, in <module>
+    main()
+  File "/sfs/gpfs/tardis/project/sheynkman/users/emily/chloe_project/00_scripts/01.7_rename_transcripts.py", line 71, in main
+    rename_accessions(args.sample2_abundance, accession_mapping, mother_abundance_output)
+  File "/sfs/gpfs/tardis/project/sheynkman/users/emily/chloe_project/00_scripts/01.7_rename_transcripts.py", line 10, in rename_accessions
+    with open(file_path, 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '01_isoseq/mother/06_collapse/Mot.collapsed.abundance.tsv'

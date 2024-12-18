@@ -1,0 +1,60 @@
+
+The following have been reloaded with a version change:
+  1) python/.3.11.4 => python/3.11.4
+
+INFO:root:Loading data...
+INFO:root:ORF file read 
+             ID   len orf_strand  ...  coding_score  pb_acc  orf_rank
+0  PB.5.3_ORF_1  3188          +  ...      1.000000  PB.5.3         1
+1  PB.5.3_ORF_2  3188          +  ...      0.998322  PB.5.3         2
+2  PB.5.3_ORF_3  3188          +  ...      0.998936  PB.5.3         3
+3  PB.5.3_ORF_4  3188          +  ...      0.225186  PB.5.3         4
+4  PB.5.3_ORF_5  3188          +  ...      0.097233  PB.5.3         5
+
+[5 rows x 12 columns]
+INFO:root:Extracted GTF attributes: ['gene_id', 'gene_type', 'gene_name', 'level', 'tag', 'transcript_id', 'transcript_type', 'transcript_name', 'transcript_support_level', 'havana_transcript', 'exon_number', 'exon_id', 'hgnc_id', 'havana_gene', 'ont', 'protein_id', 'ccdsid', 'artif_dupl']
+INFO:root:Extracted GTF attributes: ['transcript_id', 'gene_id']
+INFO:root:Mapping orfs to gencode...
+INFO:root:Mapping plus strands...
+INFO:root:Mapping minus strands...
+INFO:root:Calling ORFs...
+INFO:root:Adding metadata...
+INFO:root:Saving results...
+  seqname  source     feature   start  ...  strand  frame transcript_id gene_id
+0    chr1  PacBio  transcript  944213  ...       -      0        PB.5.3    PB.5
+1    chr1  PacBio        exon  944213  ...       -      0        PB.5.3    PB.5
+2    chr1  PacBio        exon  945057  ...       -      0        PB.5.3    PB.5
+3    chr1  PacBio        exon  945518  ...       -      0        PB.5.3    PB.5
+4    chr1  PacBio        exon  946173  ...       -      0        PB.5.3    PB.5
+
+[5 rows x 10 columns]
+['gene' 'transcript' 'exon' 'CDS' 'start_codon' 'stop_codon' 'UTR'
+ 'Selenocysteine']
+INFO:root:Loading data...
+INFO:root:ORF file read 
+             ID   len orf_strand  ...  coding_score  pb_acc  orf_rank
+0  PB.6.2_ORF_1  4622          +  ...      1.000000  PB.6.2         1
+1  PB.6.2_ORF_2  4622          +  ...      0.998185  PB.6.2         2
+2  PB.6.2_ORF_3  4622          +  ...      0.998399  PB.6.2         3
+3  PB.6.2_ORF_4  4622          +  ...      0.124965  PB.6.2         4
+4  PB.6.2_ORF_5  4622          +  ...      0.156038  PB.6.2         5
+
+[5 rows x 12 columns]
+INFO:root:Extracted GTF attributes: ['gene_id', 'gene_type', 'gene_name', 'level', 'tag', 'transcript_id', 'transcript_type', 'transcript_name', 'transcript_support_level', 'havana_transcript', 'exon_number', 'exon_id', 'hgnc_id', 'havana_gene', 'ont', 'protein_id', 'ccdsid', 'artif_dupl']
+INFO:root:Extracted GTF attributes: ['transcript_id', 'gene_id']
+INFO:root:Mapping orfs to gencode...
+INFO:root:Mapping plus strands...
+INFO:root:Mapping minus strands...
+INFO:root:Calling ORFs...
+INFO:root:Adding metadata...
+INFO:root:Saving results...
+  seqname  source     feature   start  ...  strand  frame transcript_id gene_id
+0    chr1  PacBio  transcript  944205  ...       -      0        PB.6.2    PB.6
+1    chr1  PacBio        exon  944205  ...       -      0        PB.6.2    PB.6
+2    chr1  PacBio        exon  945042  ...       -      0        PB.6.2    PB.6
+3    chr1  PacBio        exon  945518  ...       -      0        PB.6.2    PB.6
+4    chr1  PacBio        exon  946173  ...       -      0        PB.6.2    PB.6
+
+[5 rows x 10 columns]
+['gene' 'transcript' 'exon' 'CDS' 'start_codon' 'stop_codon' 'UTR'
+ 'Selenocysteine']
